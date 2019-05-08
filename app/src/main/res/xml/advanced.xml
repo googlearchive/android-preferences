@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<androidx.preference.PreferenceScreen
+<PreferenceScreen
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -58,7 +58,8 @@
             app:key="copyable"
             app:title="@string/title_copyable_preference"
             app:summary="@string/summary_copyable_preference"
+            app:selectable="false"
             app:enableCopying="true"/>
     </PreferenceCategory>
 
-</androidx.preference.PreferenceScreen>
+</PreferenceScreen>

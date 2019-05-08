@@ -5,7 +5,7 @@ The goal of this sample is to demonstrate various functionality present in the A
 Library. For more information on how to use the AndroidX Preference Library to build settings
 screens, see [Settings](https://developer.android.com/guide/topics/ui/settings/).
 
-Note: The framework API (android.preference.*) is no longer maintained, and the AndroidX library
+Note: The framework API (android.preference.*) is deprecated as of Q, and the AndroidX library
 should be used instead.
 
 Pre-requisites

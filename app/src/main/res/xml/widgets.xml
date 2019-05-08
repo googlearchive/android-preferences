@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<androidx.preference.PreferenceScreen
+<PreferenceScreen
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
@@ -40,8 +40,7 @@
         <SeekBarPreference
             app:key="seekbar"
             app:title="@string/title_seekbar_preference"
-            app:summary="@string/summary_seekbar_preference"
             app:defaultValue="20"/>
     </PreferenceCategory>
 
-</androidx.preference.PreferenceScreen>
+</PreferenceScreen>
